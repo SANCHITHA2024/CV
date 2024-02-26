@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sanchitha Devinda  - Portfolio</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/tabs.css">
+    <link rel="stylesheet" href="css/experience-list.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #8194a7;
+        }
+        .portfolio-section {
+            padding: 80px;
+        }
+        .project-card {
+            margin-bottom: 30px;
+        }
+        .skill {
+            margin-top: 150px;
+        }
+        .header {
+            margin-top: 50px;
+        }
+        .typed-text-output {
+            height: 50px;
+            display: inline-block;
+        }
+        .typed-text-wrapper {
+            height: 40px;
+            overflow: hidden;
+        }
+        button {
+            border: none;
+        }
+        table {
+            max-width: 500px;
+            margin-left: 20px;
+        }
+       
+        .social-btn {
+            margin-right: 10px;
+        }
+        .form-floating {
+            padding-bottom: 20px;
+        }
+        .form-floating input {
+            border-radius: 10px;
+        }
+        #goToTopBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            font-size: 24px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 10px;
+            z-index: 1000;
+        }
+    </style>
+
+    <script>
+        new WOW().init();
+    </script>
+
+    <button id="goToTopBtn">&#9650;</button>
+
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/auto-type.js"></script>
+    <script src="js/goto-top.js"></script>
+    <link rel="icon" href="img/favicon.ico" style="border-radius: 50px;">
+
+</head>
+        <div style="width: 65%;" class="progress-bar my-bars" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+<body>
+<!-- Navigation Sectin -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow animate__animated animate__fadeInUp" >
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#skill" data-scroll="skills" style="color: blue; transition: color 0.3s;" onmouseover="this.style.color='rgb(68,138,224)'" onmouseout="this.style.color='blue'">Skills and Experience</a>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects" data-scroll="projects" style="color: blue; transition: color 0.3s;" onmouseover="this.style.color='rgb(68,138,224)'" onmouseout="this.style.color='blue'">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact" data-scroll="contact" style="color: blue; transition: color 0.3s;" onmouseover="this.style.color='rgb(68,138,224)'" onmouseout="this.style.color='blue'">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div style="width: 65%;" class="progress-bar my-bars" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+    <div class="progress">
+        <div style="width: 65%;" class="progress-bar my-bars" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+</nav>
+
+<!-- Header Section -->
+<div class="header">
+    <section class="container-fluid bg-light my-6 mt-0" id="home">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0 wow animate__animated animate__fadeInUp">
+                    <h3 class="text-primary mb-3">I'm</h3>
+                    <h1 class="display-3 mb-3">Sanchitha Devinda</h1>
+                    <div class="typed-text-wrapper">
+                        <h2 class="typed-text-output"></h2>
+                    </div>    
+                    <div class="d-flex align-items-center pt-5">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid wow animate__animated animate__fadeInUp" src="img/profile.png" alt="Chamidu Dilshan">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Skill Section -->
+<div class="skill" id="skill">  
+    <div class="container-fluid bg-light my-6 mt-0" id="skills">
+        <div class="container">
+            <h2 class="text-center mb-4 wow animate__animated animate__fadeInUp">Skills & Experience</h2>
+            <div class="row">
+                <div class="col-lg-6 wow animate__animated animate__fadeInUp">
+                    <div class="tabs">
+                        <input class="input" name="tabs" type="radio" id="tab-1" checked="checked"/>
+                        <label class="label" for="tab-1">About me</label>
+                        <div class="panel">
+                          <h4>About me</h4>
+                          <p>"As An Undergraduate Student of Software Engineering At Open University Sri Lanka, I Am Passionate About Exploring Various Facets of Technology, Including Web Development, App designing, And UI/UX Designing. My Academic Journey Has Equipped Me With a Solid Foundation In Software Engineering Principles, While My Hands-On Experience Has Honed My Skills In These Diverse Areas. Eager To Contribute My Knowledge And Enthusiasm To The Ever-Evolving Field of Technology,
+                             I Am driven By a Commitment To Continuous learning And a Desire To Make Meaningful Contributions In The World of Software Development."</p>
+                        </div>
+                        <input class="input" name="tabs" type="radio" id="tab-2"/>
+                        <label class="label" for="tab-2">Exp & Edu</label>
+                        <div class="panel">
+                          <h4>Experience and Education</h4>
+                          <p>
+                            <ol class="Experience-list">
+                                <li>
+                                  <strong>Ordinary Level</strong>
+                                  <p>BUDDHISM
+
+                                    SINHALA LANGUAGE & LITT - C /
+                                    
+                                    ENGLISH LANGUAGE - C /
+                                    
+                                    MATHEMATICS - C / 
+                                    
+                                    HISTORY - B / 
+                                    
+                                    SCIENCE - B /
+                                    
+                                    DRAMA & THEATRE (SINHALA) - A /
+                                    
+                                    BUSINESS & ACCT. STUDIES - C /
+                                    
+                                    INFOR. & COMM. TECHNOLOGY - C
+                                    
+                                   </p>
+                                </li>
+                                <li>
+                                  <strong>Advanced Level</strong>
+                                  <p>MATHS - C /
+                                    CHEMISTRY - S /
+                                    PHYSICS - S 
+                                  </p>
+                                </li>
+                                <li>
+                                  <strong>University</strong>
+                                  <p>Undergraduate Software Engineering student at Open University Sri Lanka.</p>
+                                </li>
+                              </ol>
+                          </p>
+                        </div>
+                        <input class="input" name="tabs" type="radio" id="tab-3"/>
+                        <label class="label" for="tab-3">Spec Qual</label>
+                        <div class="panel">
+                          <h4>Special Qualifications</h4>
+                          <p>
+                            <div class="specifical-qualification">
+                                <ol>
+                                    <li>Cloud Computing</li>
+                                    <li>English</li>
+                                    <li>Database Knowledge</li>
+                                    <li>Programming Languages</li>
+                                </ol>
+                            </div>
+                          </p>
+                        </div>
+                      </div>        
+                </div>
+
+                <div class="col-lg-6">
+                    <table class="table table-hover wow animate__animated animate__fadeInUp">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Skills</th>
+                            <th scope="col"></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                                <div style="padding-bottom: 10px;display: flex; justify-content: space-between;">
+                                    <div>Html</div>
+                                    <div style="text-align: right;">80%</div>
+                                </div>
+                                <div style="background-color: #ddd;width: 110%; height: 15px;">
+                                    <div style="background-color: rgba(2, 99, 23, 0.76);width: 80%; height: 15px;">
+                                    </div>
+                                </div>
+                            </td>  
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>
+                                <div style="padding-bottom: 10px; display: flex;justify-content: space-between;">
+                                    <div>CSS</div>
+                                    <div style="text-align: right;">70%</div>
+                                </div>
+                                <div style="background-color: #ddd; width: 110%;height: 15px;">
+                                    <div style="background-color: rgb(255, 230, 0);width: 70%; height: 15px;">
+                                    </div>
+                                </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>
+                                <div style="padding-bottom: 10px;display: flex; justify-content: space-between;">
+                                    <div>Js</div>
+                                    <div style="text-align: right;">60%</div>
+                                </div>
+                                <div style="background-color: #ddd;width: 110%; height: 15px;">
+                                    <div style="background-color: rgb(250, 14, 14);width: 60%; height: 15px;">
+                                    </div>
+                                </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>
+                                <div style="padding-bottom: 10px;display: flex; justify-content: space-between;">
+                                    <div>Bootstrap</div>
+                                    <div style="text-align: right;">85%</div>
+                                </div>
+                                <div style="background-color: #ddd;width: 110%; height: 15px;">
+                                    <div style="background-color: rgba(2, 99, 23, 0.76);width: 85%; height: 15px;">
+                                    </div>
+                                </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">5</th>
+                            <td>
+                                <div style="padding-bottom: 10px; display: flex;justify-content: space-between;">
+                                    <div>Word-Press</div>
+                                    <div style="text-align: right;">75%</div>
+                                </div>
+                                <div style="background-color: #ddd; width: 110%;height: 15px;">
+                                    <div style="background-color: rgb(255, 230, 0);width: 75%; height: 15px;">
+                                    </div>
+                                </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">6</th>
+                            <td>
+                                <div style="padding-bottom: 10px;display: flex; justify-content: space-between;">
+                                    <div>UI UX Design (Figma/ Adobe XD)</div>
+                                    <div style="text-align: right;">90%</div>
+                                </div>
+                                <div style="background-color: #ddd;width: 110%; height: 15px;">
+                                    <div style="background-color: rgba(2, 99, 23, 0.76);width: 90%; height: 15px;">
+                                    </div>
+                                </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">7</th>
+                            <td>
+                                <div style="padding-bottom: 10px;display: flex; justify-content: space-between;">
+                                    <div>Linux and Windows proficiency</div>
+                                    <div style="text-align: right;">95%</div>
+                                </div>
+                                <div style="background-color: #ddd;width: 110%; height: 15px;">
+                                    <div style="background-color: rgba(2, 99, 23, 0.76);width: 95%; height: 15px;">
+                                    </div>
+                                </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">8</th>
+                            <td>Python, C, Java, React, C#</td>
+                            <td>
+                                <div style="width: 60px; height: 35px; background-color: rgb(250, 14, 14); border-radius: 45%; text-align: center; line-height: 30px; margin: auto; font-size: 12px; font-weight: bold;">
+                                    60%-70%
+                                </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Projects Section -->
+<div id="projects" class="portfolio-section">
+    <div class="container">
+        <h2 class="text-center mb-4 wow animate__animated animate__fadeInUp">Projects</h2>
+        <div class="row">
+            <div class="col-lg-4 wow animate__animated animate__fadeInUp">
+                <div class="card" style="width: 18rem; margin-bottom: 20px; border-radius: 20px; ">
+                    <img src="img/projects/taxi-app-UI-UX.png" class="card-img-top" alt="" style="border-radius: 20px;">
+                    <div class="card-body" style="border-radius: 20px;">
+                      <h5 class="card-title"><strong>Swift taxi</strong> UI-UX Design</h5>
+                      <p class="card-text">"Designed a Swift taxi service prototype, optimizing user experience and efficiency in urban transportation."</p>
+                      <a href="https://www.figma.com/proto/ROP4jCou6N5PZjqlSXwBXU/Iconify-(Community)?type=design&node-id=1-10&t=g7kQlGVWhPCQmDeJ-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=7%3A287&mode=design" class="btn btn-primary">View it &raquo;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div class="footer" style="background-color: rgb(214, 213, 213);">
+<section id="contact" class="portfolio-section">
+    <div class="container">
+        <h2 class="text-center mb-4 wow animate__animated animate__fadeInUp">Contact</h2>
+        <div class="container-xxl pb-5" id="contact">
+            <div class="container py-5">
+                <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-6">
+                        <h2 class="display-5 mb-0 wow animate__animated animate__fadeInUp">Let's Work Together</h1>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-5 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                        <p class="mb-2">My Address</p>
+                        <h5 class="fw-bold">Pannipitiya, Maharagama, SriLanka</h3>
+                        <hr class="w-100">
+                        <p class="mb-2">Call me:</p>
+                        <h5 class="fw-bold">+94 765850226</h3>
+                        <hr class="w-100">
+                        <p class="mb-2">Mail me:</p>
+                        <h5 class="fw-bold">sanchithadevinda@gmail.com</h3>
+                        <hr class="w-100">
+                        <p class="mb-2">Follow me:</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-square btn-primary social-btn" href="https://wa.me/94765850226" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            <a class="btn btn-square btn-primary social-btn" href="https://www.facebook.com/sanchithadevinda?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-primary social-btn" href="https://www.instagram.com/s_a_n_c_h_i_t_h_?igsh=Ymt2dHdsNDM4bDg2" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square btn-primary social-btn" href="https://github.com/SANCHITHA2024" target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="btn btn-square btn-primary social-btn" href="https://www.linkedin.com/in/sanchitha-devinda-50416b290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </div>                                             
+                    </div>
+                    <div class="col-lg-7 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+                        <p class="mb-4"></p>
+                        <form action="https://getform.io/f/9a054abf-7368-4b28-8ef8-470173128436" method="POST">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="textarea" class="form-control" name="message" placeholder="Leave a message here" required id="message" style="height: 100px"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary py-3 px-5" type="submit" style="border-radius: 15px;">Send Message</button>
+                                </div>
+                            </div>
+                        </form>      
+                        <div class="copy-right">
+                            <p class="copyright">&copy; Copyright <strong>sanchithadevinda</strong>. All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<p style="display: none">This HTML document has been validated as compliant with the HTML5 standard by the W3C. Certified by Chamidu</p>
+</body>
+</html>
